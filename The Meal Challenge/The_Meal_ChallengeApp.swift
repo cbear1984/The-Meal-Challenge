@@ -11,7 +11,7 @@ import SwiftUI
 struct The_Meal_ChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DessertListView()
         }
     }
 }

@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		67C896862C2D8BAD009BEBD6 /* The_Meal_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C896852C2D8BAD009BEBD6 /* The_Meal_ChallengeApp.swift */; };
-		67C896882C2D8BAD009BEBD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C896872C2D8BAD009BEBD6 /* ContentView.swift */; };
 		67C8968A2C2D8BAF009BEBD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C896892C2D8BAF009BEBD6 /* Assets.xcassets */; };
 		67C8968E2C2D8BAF009BEBD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C8968D2C2D8BAF009BEBD6 /* Preview Assets.xcassets */; };
 		67C896982C2D8BAF009BEBD6 /* The_Meal_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C896972C2D8BAF009BEBD6 /* The_Meal_ChallengeTests.swift */; };
 		67C896A22C2D8BAF009BEBD6 /* The_Meal_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C896A12C2D8BAF009BEBD6 /* The_Meal_ChallengeUITests.swift */; };
 		67C896A42C2D8BAF009BEBD6 /* The_Meal_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C896A32C2D8BAF009BEBD6 /* The_Meal_ChallengeUITestsLaunchTests.swift */; };
+		67C896B72C2E08C8009BEBD6 /* Dessert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C896B62C2E08C8009BEBD6 /* Dessert.swift */; };
+		67C896BB2C2E2323009BEBD6 /* DessertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C896BA2C2E2323009BEBD6 /* DessertViewModel.swift */; };
+		67C896BD2C2E242B009BEBD6 /* DessertListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C896BC2C2E242B009BEBD6 /* DessertListView.swift */; };
+		67C896BF2C2E27C9009BEBD6 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C896BE2C2E27C9009BEBD6 /* CustomError.swift */; };
+		67C896C12C2E6574009BEBD6 /* DessertCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C896C02C2E6574009BEBD6 /* DessertCellView.swift */; };
+		67C896C32C2E682B009BEBD6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C896C22C2E682B009BEBD6 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		67C896822C2D8BAD009BEBD6 /* The Meal Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Meal Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C896852C2D8BAD009BEBD6 /* The_Meal_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Meal_ChallengeApp.swift; sourceTree = "<group>"; };
-		67C896872C2D8BAD009BEBD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		67C896892C2D8BAF009BEBD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67C8968B2C2D8BAF009BEBD6 /* The_Meal_Challenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = The_Meal_Challenge.entitlements; sourceTree = "<group>"; };
 		67C8968D2C2D8BAF009BEBD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +49,12 @@
 		67C8969D2C2D8BAF009BEBD6 /* The Meal ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Meal ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C896A12C2D8BAF009BEBD6 /* The_Meal_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Meal_ChallengeUITests.swift; sourceTree = "<group>"; };
 		67C896A32C2D8BAF009BEBD6 /* The_Meal_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Meal_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67C896B62C2E08C8009BEBD6 /* Dessert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dessert.swift; sourceTree = "<group>"; };
+		67C896BA2C2E2323009BEBD6 /* DessertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertViewModel.swift; sourceTree = "<group>"; };
+		67C896BC2C2E242B009BEBD6 /* DessertListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertListView.swift; sourceTree = "<group>"; };
+		67C896BE2C2E27C9009BEBD6 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		67C896C02C2E6574009BEBD6 /* DessertCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertCellView.swift; sourceTree = "<group>"; };
+		67C896C22C2E682B009BEBD6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				67C896852C2D8BAD009BEBD6 /* The_Meal_ChallengeApp.swift */,
-				67C896872C2D8BAD009BEBD6 /* ContentView.swift */,
+				67C896B02C2E0839009BEBD6 /* Helpers */,
+				67C896B12C2E0846009BEBD6 /* Model */,
+				67C896B22C2E0853009BEBD6 /* View */,
+				67C896B32C2E085A009BEBD6 /* ViewModel */,
 				67C896892C2D8BAF009BEBD6 /* Assets.xcassets */,
 				67C8968B2C2D8BAF009BEBD6 /* The_Meal_Challenge.entitlements */,
 				67C8968C2C2D8BAF009BEBD6 /* Preview Content */,
@@ -127,6 +140,40 @@
 				67C896A32C2D8BAF009BEBD6 /* The_Meal_ChallengeUITestsLaunchTests.swift */,
 			);
 			path = "The Meal ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		67C896B02C2E0839009BEBD6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				67C896BE2C2E27C9009BEBD6 /* CustomError.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		67C896B12C2E0846009BEBD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67C896B62C2E08C8009BEBD6 /* Dessert.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67C896B22C2E0853009BEBD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67C896BC2C2E242B009BEBD6 /* DessertListView.swift */,
+				67C896C02C2E6574009BEBD6 /* DessertCellView.swift */,
+				67C896C22C2E682B009BEBD6 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67C896B32C2E085A009BEBD6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				67C896BA2C2E2323009BEBD6 /* DessertViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +306,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67C896882C2D8BAD009BEBD6 /* ContentView.swift in Sources */,
+				67C896BF2C2E27C9009BEBD6 /* CustomError.swift in Sources */,
+				67C896C32C2E682B009BEBD6 /* DetailView.swift in Sources */,
+				67C896BB2C2E2323009BEBD6 /* DessertViewModel.swift in Sources */,
+				67C896B72C2E08C8009BEBD6 /* Dessert.swift in Sources */,
+				67C896BD2C2E242B009BEBD6 /* DessertListView.swift in Sources */,
+				67C896C12C2E6574009BEBD6 /* DessertCellView.swift in Sources */,
 				67C896862C2D8BAD009BEBD6 /* The_Meal_ChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
